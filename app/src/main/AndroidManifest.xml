@@ -12,6 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Calculator"
         tools:targetApi="31">
+
+<!--        Java version of calculator — use CalculatorKotlin.kt for Kotlin version-->
         <activity
             android:name=".CalculatorJava"
             android:exported="true"
