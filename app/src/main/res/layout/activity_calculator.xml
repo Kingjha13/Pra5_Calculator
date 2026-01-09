@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:padding="16dp"
+    android:gravity="bottom"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Display TextView -->
+    <TextView
+        android:id="@+id/display"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:gravity="end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp" />
+
+    <!-- Buttons will be added dynamically here via Java -->
+</LinearLayout>
